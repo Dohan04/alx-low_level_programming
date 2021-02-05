@@ -15,13 +15,13 @@ int d = 0;
 while (d < 10)
 {
 c = 0;
-while (e < 10)
+while (c < 10)
 {
 b = 0;
 while (b < 10)
 {
 a = 0;
-while (c < 10)
+while (a < 10)
 {
 if (!(d == a && c == b))
 {

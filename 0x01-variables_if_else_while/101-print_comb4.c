@@ -30,7 +30,6 @@ putchar(',');
 putchar(' ');
 }
 }
-}
 c++;
 }
 d++;

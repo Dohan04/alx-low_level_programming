@@ -2,19 +2,19 @@
 #include "holberton.h"
 
 /**
- * print_last_digit - compute and  print last digigt
+ * print_last_digit - compute and print last digit
  *
  * @num: number to be computed
  *
  * Return: last digit of num
  */
-int print_last_digi(int n)
+int print_last_digit(int num)
 {
-char ld;
-n %= 10;
-if(n < 0)
-n = -n;
-ld = '0' + n;
-_putchar(ld);
-return (n);
+char lastDgt;
+num %= 10;
+if (num < 0)
+num = -num;
+lastDgt = '0' + num;
+_putchar(lastDgt);
+return (num);
 }

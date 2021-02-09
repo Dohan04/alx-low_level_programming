@@ -1,17 +1,18 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - function to print alphabet in lower case
+ * followed by a new line
  *
- * Return:0
+ * Return: Void
  */
 void print_alphabet(void)
 {
-char c = 'a';
-while (c <= 'z')
+char p;
+for (p = 'a'; p <= 'z'; p++)
 {
-_putchar(c);
-c++;
+_putchar(p);
 }
-_putchat('\n');
+_putchar('\n');
 }

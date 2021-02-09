@@ -12,6 +12,8 @@ int print_last_digi(int n)
 {
 char ld;
 n %= 10;
+if(n < 10)
+n=-n;
 ld = '0' + n;
 _putchar(ld);
 return (n);

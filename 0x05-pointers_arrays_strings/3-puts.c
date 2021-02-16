@@ -3,8 +3,6 @@
 /**
  * _puts - prints a string, followed by new line,
  *
- * @str: pointer to sring to print
- *
  * Return: void
  */
 void _puts(char *str)

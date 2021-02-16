@@ -3,8 +3,6 @@
 /**
  * print_rev - prints revesed string, followed by a new line
  *
- * @s: pointer to the string to print
- *
  * Return: void
  */
 void print_rec(char *s)

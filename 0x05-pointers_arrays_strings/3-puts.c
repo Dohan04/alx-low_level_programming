@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _puts - prints a string, followed by new line,
+ * _puts - Prints the string
  *
  * @str: string to be printed
  *
@@ -9,11 +9,11 @@
  */
 void _puts(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
+int len = 0;
+while (str[len] != '\0')
 {
-_putchar(str[i])
-i++;
+_putchar(str[len]);
+len++;
 }
 _putchar('\n');
 }
